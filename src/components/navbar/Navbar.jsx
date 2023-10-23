@@ -21,7 +21,7 @@ const Navbar = ({ openMenu, setOpenMenu }) => {
             className="w-[72px] drop-shadow-xl sm:mx-0 mx-2"
             alt=""
           />
-          <div className="sm:block hidden">
+          <div className="sm:w-fit w-0 overflow-hidden">
             <h5 className="text-xl font-bold">Bella Famina</h5>
             <p className="text-lg">Joined2 months ago</p>
           </div>
